@@ -1,4 +1,5 @@
 body{
+    
     padding: 0;
     margin: 0;
     font-family: 'Open Sans', sans-serif;
@@ -7,6 +8,8 @@ body{
 }
 
 .form{
+    background-image: url(ui-ux.jpg);
+    background-repeat: no-repeat;
     text-align: center;
     margin-top: 3rem;
     background-color: aliceblue;
@@ -20,15 +23,23 @@ h2{
 input{
     padding: 10px;
     margin: 10px;
-    border: 1px solid #4caf50;
+    border: 1px solid #08486d;
     border-radius: 3px;
     width: 300px;
+    color:#08486d;
 }
 
+::placeholder {
+    color: #08486d;
+    opacity: 1;
+    font-family: Arial, Helvetica, sans-serif; 
+    background-color: #e0f2fc;
+  }
+  
 textarea{
     width: 400px;
     border-radius: 3px;
-    border: 1px solid #4caf50;
+    border: 1px solid #08486d;
     padding: 10px;
 }
 
@@ -37,7 +48,7 @@ textarea{
     margin: 10px;
     border: 1px solid #ccc;
     border-radius: 3px;
-    background-color: #4caf50;
+    background-color: #08486d;
     color: #fff;
     cursor: pointer;
     width: 200px;
@@ -48,6 +59,7 @@ textarea{
     background-color: #ffffff;
     color: black;
     border: 1px solid #4caf50;
+    color: #08486d;
 }
 
 .social{
@@ -56,7 +68,7 @@ textarea{
 
 .fa-brands{
     padding: 10px;
-    color: #4caf50;
+    color: #08486d;
 }
 
 
